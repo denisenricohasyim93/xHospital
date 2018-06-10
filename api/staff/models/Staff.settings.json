@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "staff",
+  "info": {
+    "name": "staff",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "jabatan": {
+      "type": "string"
+    },
+    "alamat": {
+      "type": "string"
+    }
+  }
+}

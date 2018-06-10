@@ -52,5 +52,18 @@
         "appearance": ""
       }
     }
+  },
+  "staff": {
+    "attributes": {
+      "nama": {
+        "appearance": ""
+      },
+      "jabatan": {
+        "appearance": ""
+      },
+      "alamat": {
+        "appearance": ""
+      }
+    }
   }
 }
