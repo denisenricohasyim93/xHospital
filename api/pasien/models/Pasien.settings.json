@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "pasiens",
+  "info": {
+    "name": "pasien",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "tanggal_lahir": {
+      "type": "string"
+    },
+    "alamat": {
+      "type": "string"
+    },
+    "No. KTP": {
+      "type": "string"
+    },
+    "No. Telp": {
+      "type": "string"
+    }
+  }
+}

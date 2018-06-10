@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dokter",
+      "handler": "Dokter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dokter/:id",
+      "handler": "Dokter.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dokter/count",
+      "handler": "Dokter.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dokter",
+      "handler": "Dokter.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dokter/:id",
+      "handler": "Dokter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dokter/:id",
+      "handler": "Dokter.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dokter/:id/relationships/:relation",
+      "handler": "Dokter.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dokter/:id/relationships/:relation",
+      "handler": "Dokter.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dokter/:id/relationships/:relation",
+      "handler": "Dokter.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
