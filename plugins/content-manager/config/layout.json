@@ -65,5 +65,18 @@
         "appearance": ""
       }
     }
+  },
+  "waktutemu": {
+    "attributes": {
+      "tanggal ketemu": {
+        "appearance": ""
+      },
+      "jam ketemu": {
+        "appearance": ""
+      },
+      "keterangan": {
+        "appearance": ""
+      }
+    }
   }
 }

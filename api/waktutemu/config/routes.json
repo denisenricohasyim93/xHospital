@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/waktutemu",
+      "handler": "Waktutemu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/waktutemu/:id",
+      "handler": "Waktutemu.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/waktutemu/count",
+      "handler": "Waktutemu.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/waktutemu",
+      "handler": "Waktutemu.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/waktutemu/:id",
+      "handler": "Waktutemu.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/waktutemu/:id",
+      "handler": "Waktutemu.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/waktutemu/:id/relationships/:relation",
+      "handler": "Waktutemu.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/waktutemu/:id/relationships/:relation",
+      "handler": "Waktutemu.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/waktutemu/:id/relationships/:relation",
+      "handler": "Waktutemu.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

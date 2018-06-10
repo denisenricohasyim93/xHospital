@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "waktutemus",
+  "info": {
+    "name": "waktutemu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "id_dokter": {
+      "model": "dokter"
+    },
+    "id_pasien": {
+      "model": "pasien"
+    },
+    "tanggal ketemu": {
+      "type": "string"
+    },
+    "jam ketemu": {
+      "type": "string"
+    },
+    "keterangan": {
+      "type": "string"
+    }
+  }
+}
