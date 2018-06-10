@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/obat",
+      "handler": "Obat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/obat/:id",
+      "handler": "Obat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/obat/count",
+      "handler": "Obat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/obat",
+      "handler": "Obat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/obat/:id",
+      "handler": "Obat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/obat/:id",
+      "handler": "Obat.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/obat/:id/relationships/:relation",
+      "handler": "Obat.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/obat/:id/relationships/:relation",
+      "handler": "Obat.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/obat/:id/relationships/:relation",
+      "handler": "Obat.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
